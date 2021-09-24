@@ -112,36 +112,12 @@ def hero():
                     print(newperiod+1,": GREEN")
                 else:
                     print(newperiod+1,": RED")
-        i=i+1
-        newperiod+=1
-        numbers.append(current)
-        y=input("Do you want to play : Press 1 and 0 to exit \n")
-        if(y==0):
-            y=False
-        if (len(numbers)>11):
-            clear()
-            system('figlet Thank you🤑!!')
-            print("Play on next specified time🤑!!")
-            print("-----------⏱️Current Time UP⏱️----------")
-            sys.exit(" \n \n \n Contact on Telegram @HACK_RXCE")
-            #print(numbers)
+        
   
 
 
-
-if(expirydate>today):
-    now = datetime.datetime.now()
-    First = now.replace(hour=13, minute=55, second=0, microsecond=0)
-    Firstend = now.replace(hour=14, minute=35, second=0, microsecond=0)
-    Second = now.replace(hour=15, minute=55, second=0, microsecond=0)
-    Secondend = now.replace(hour=16, minute=35, second=0, microsecond=0)
-    Third = now.replace(hour=16, minute=55, second=0, microsecond=0)
-    Thirdend = now.replace(hour=17, minute=35, second=0, microsecond=0)
-    Final = now.replace(hour=17, minute=55, second=0, microsecond=0)
-    Finalend = now.replace(hour=18, minute=35, second=0, microsecond=0)
-
     if (True):
-            period=221
+            period=19
             hero()
     elif(now>First and now<Firstend):
             period=280
@@ -149,7 +125,7 @@ if(expirydate>today):
     elif(now>Third and now<Thirdend):
             period=372
             hero()
-    elif(True):
+    elif(False):
             period=230
             hero()
     else:
